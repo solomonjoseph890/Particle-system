@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     plus.addEventListener("mouseover", () => {
       plus.style.color = "black";
       setTimeout(() => {
-        plus.style.color = "blue";
+        plus.style.color = "grey";
       }, 500);
     });
 
