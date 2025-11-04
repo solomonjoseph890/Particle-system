@@ -39,7 +39,7 @@ body {
 .particle {
   /* font-weight: bold; */
   font-size: 1.75rem;
-  color: grey;
+  color: red;
   font-family: sans-serif;
   cursor: pointer;
 }

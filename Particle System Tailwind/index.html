@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="box-border p-0 font-playfair">
+    <div class="flex justify-center">
+      <nav>Particle System V1</nav>
+      <div class="border-1 border-red-600 border-dotted mt-25 p-5 w-150 h-75">
+        <h1 class="p-0 m-0 italic text-2xl font-normal pl-5">Hey,</h1>
+        <div
+          id="box-grid"
+          class="p-5 mt-5 max-w-full max-h-full grid grid-cols-[repeat(25,minmax(0,1fr))] grid-rows-[repeat(10,minmax(0,1fr))] items-center"
+        ></div>
+        <p class="m-0 p-0 text-xl text-left p-5">
+          This is a <span class="italic">website</span> made by Olatokubo
+          <span class="text-blue-500">Joseph</span> Solomon, He is a
+          <span class="text-red-500">motivated</span>,
+          <span class="text-green-500">dedicated</span> and
+          <span class="text-yellow-500">reliable</span> person, say
+          <span class="text-violet-500">hi</span>.
+        </p>
+
+        <p class="italic font-extralight p-5 m-0 text-gray-500">
+          made on the 3rd of November 2025.
+        </p>
+
+        <div class="pl-5 m-0 mt-5 flex gap-2">
+          <button
+            class="text-black-500 font-bold bg-white border-gray-500 border-1 border-solid w-25 h-10 rounded-md cursor-pointer hover:border-gray-900 delay-100"
+          >
+            Back
+          </button>
+          <button
+            class="text-white italic border-2 bg-black w-25 h-10 rounded-md cursor-pointer hover:opacity-75 hover:delay-100"
+          >
+            next →
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
