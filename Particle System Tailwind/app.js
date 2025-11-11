@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     plus.classList.add("cursor-pointer");
     plus.classList.add("m-0");
     plus.classList.add("p-0");
+    // plus.classList.add("rotate-45");
     plus.innerText = "+";
     box.push(plus);
     boxGrid.append(plus);
